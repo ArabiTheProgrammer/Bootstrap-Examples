@@ -1,0 +1,64 @@
+.accordion-button:not(.collapsed) {
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+.accordion{
+    --bs-accordion-bg: #14aeeb52;
+    --bs-accordion-border-color: #0080ffa8;
+}
+
+.container{
+    width: 1320px;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px 0;
+    background: #119ae948;
+    border: 3px solid black;
+}
+
+.container .btn-close p{
+    font-size: 18px;
+    width: 120px;
+    margin-top: -30%;
+    margin-left: 0;
+}
+
+.container .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.btn-close{
+    --bs-btn-close-color: #f00;
+}
+
+.btn.disabled, .btn:disabled, fieldset:disabled .btn{
+    color: black;
+    background: #f0000080;
+    border-color: #ff0000;
+}
+
+.bg-body-tertiary{
+    background: #000;
+}
+
+.btn-primary {
+    background: #0000005e;
+    transition: .4s;
+}
+
+.btn-primary:hover{
+    background: #000000;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.btn-primary:active{
+    background: #00c3ff70;
+    border: 1px solid rgb(0, 153, 255);
+}
