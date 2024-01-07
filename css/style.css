@@ -62,3 +62,7 @@ h1{
     background: #00c3ff70;
     border: 1px solid rgb(0, 153, 255);
 }
+
+.progress-bar{
+  background: #ff000088;
+}
